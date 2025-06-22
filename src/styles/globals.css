@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.title {
+   @apply text-xl text-center font-medium
+} 
+
+.corps_text {
+    @apply my-4 text-justify
+}

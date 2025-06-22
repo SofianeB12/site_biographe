@@ -16,3 +16,25 @@ export default {
   },
   plugins: [],
 } satisfies Config;
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/app/**/*.{js,ts,jsx,tsx}", "./src/components/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#c7d2fe",
+        secondary: "#D0021B",
+        background: "#fff7ed", 
+        background2:"#faf5ff",
+        text: "#333333", 
+        textbar: "#1e293b"
+      },
+      spacing: {
+        navbarsize: "10vh",
+      }
+    },
+  },
+  plugins: [],
+};
+
