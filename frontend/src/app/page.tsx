@@ -1,7 +1,7 @@
-import BanierePhoto from "@/components/BanierePhoto";
-import { PresentationAccueil } from "@/components/PresentationAccueil";
+import BanierePhoto from "../components/BanierePhoto";
+import { PresentationAccueil } from "../components/PresentationAccueil";
 import ContactSimple from "../components/ContactSimple";
-import Prestations from "@/components/Prestations";
+import Prestations from "../components/Prestations";
 
 export default function HomePage() {
   return (

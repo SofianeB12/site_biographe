@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
-import { fetchPrestations } from "@/utils/api";
+import { fetchPrestations } from "../utils/api";
 
 export default function Prestations() {
 
