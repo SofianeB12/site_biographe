@@ -1,5 +1,5 @@
   import Image from "next/image";
-  import bannerImg from "@/public/baniere.jpg";
+  import bannerImg from "@/src/public/baniere.jpg";
   
   export default function BanierePhoto() {
     return (
