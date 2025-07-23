@@ -5,13 +5,13 @@ import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
-import { fetchPresentation } from '../utils/api';
+import { fetchPresentation, PresentationType } from '../utils/api';
 
 
 
 export function PresentationAccueil() {
 
-    const [listContent, setListContent] = useState([]);
+    const [listContent, setListContent] = useState<PresentationType[]>([]);
       
         useEffect(() => {
           fetchPresentation()
