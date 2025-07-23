@@ -1,9 +1,23 @@
+"use client"
 import Image from 'next/image';
 import photo_caty from "@/public/portrait_catygarozzo.jpg";
+import { useEffect, useState } from 'react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
+import { fetchPresentation } from '@/utils/api';
 
 
 
 export function PresentationAccueil() {
+
+    const [listContent, setListContent] = useState([]);
+      
+        useEffect(() => {
+          fetchPresentation()
+            .then(data =>
+              setListContent(data.data));
+        }, []);
 
     return(
 
@@ -26,8 +40,27 @@ export function PresentationAccueil() {
                           style={{ marginLeft: '8%', marginTop: '-15%' }}
                           priority
                         />
-            <div></div>
-            <p className="mt-4 text-lg"> Texte de description</p>
+            <section className="p-8">
+                  <h1 className="text-3xl font-semibold text-center">Accompagnante – biographe</h1>
+                  <div className="mt-6 space-y-4">
+                    <div className="">
+                      <ul className="p-4">
+                        {listContent.length > 0 && listContent.map((content, index) => (
+                          <li className="my-8" key={index}>
+                            <div className="prose max-w-none mx-auto">
+                              <ReactMarkdown
+                                  remarkPlugins={[remarkGfm]}
+                                  rehypePlugins={[rehypeRaw]} // Pour interpréter le HTML (<u>, etc.)
+                                >
+                                  {content.contenu}
+                                </ReactMarkdown>
+                            </div>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </section>
 
         </div>
     )}

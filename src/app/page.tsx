@@ -1,22 +1,25 @@
 import BanierePhoto from "@/components/BanierePhoto";
 import { PresentationAccueil } from "@/components/PresentationAccueil";
-import ContactForm from "../components/ContactForm";
+import ContactSimple from "../components/ContactSimple";
 import Prestations from "@/components/Prestations";
 
 export default function HomePage() {
   return (
-    <section className="">
+    <section>
+      <div id="baniere">
       <BanierePhoto/>
+      </div>
+      <div className="">
       <div id="presentation">
       <PresentationAccueil />
       </div>
-      <div id="tarifs" className="bg-background2">
+      <section id="prestations" className="bg-background2">
         <Prestations></Prestations>
-      </div>
-      <section id="contact" className="bg-background">
-      <ContactForm />
       </section>
-      
+      <section id="contact" className="bg-background">
+      <ContactSimple />
+      </section>
+      </div>
 
     </section>
   );

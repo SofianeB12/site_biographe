@@ -1,0 +1,16 @@
+
+export default function ContactSimple() {
+  
+
+  return (
+    <section className="pt-16 px-8 max-w-md mx-auto">
+      <h1 className="text-3xl font-semibold text-center">Contact</h1>
+      <p className="text-center">Prêt à franchir le cap, contactez-moi !</p>
+      <div className="text-center mt-8 p-4 flex flex-col space-y-2 border-2 border-black rounded">
+      <div>E-mail : caty.garozzo@gmail.com</div>
+      <div>Téléphone : 06 67 03 19 31</div>
+
+      </div>
+    </section>
+  );
+}

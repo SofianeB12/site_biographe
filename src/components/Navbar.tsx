@@ -12,23 +12,27 @@ export default function Navbar() {
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
+    const header = document.getElementById("navbar");
     if (element) {
-      const offset = window.innerHeight / 2 - element.clientHeight / 2;
-      window.scrollTo({
-        top: element.offsetTop - offset,
-        behavior: 'smooth'
-      });
+       const headerHeight = header?.offsetHeight || 0;
+      const elementPosition = element.offsetTop;
+      const offsetPosition = elementPosition - headerHeight;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
     }
     setIsMenuOpen(false);
   };
 
   return (
-    <nav className="fixed top-0 w-full min-h-navbarsize bg-primary text-textbar p-2 shadow-md z-50 flex flex-col">
+    <nav id="navbar" className="fixed top-0 w-full min-h-navbarsize bg-primary text-textbar p-2 shadow-md z-50 flex flex-col">
         <div className="w-full mt-4">
           <div className="flex w-full">
             <div className="w-1/3"></div>
             <div className="w-1/3 flex self-center justify-center">
-              <button className="hover:text-secondary" onClick={() => scrollToSection('presentation')}>
+              <button className="hover:text-secondary" onClick={() => scrollToSection('baniere')}>
                 Caty Garozzo
               </button>
             </div>
@@ -58,7 +62,7 @@ function ListeLiens({ scrollToSection }: { scrollToSection: (id: string) => void
   return (
     
     <ul className="flex flex-col md:flex-row justify-center md:justify-evenly md:gap-6 text-center self-center">
-      <li><button className="hover:text-secondary" onClick={() => scrollToSection('tarifs')}>Tarifs</button></li>
+      <li><button className="hover:text-secondary" onClick={() => scrollToSection('prestations')}>Prestations</button></li>
       <li><button className="hover:text-secondary" onClick={() => scrollToSection('contact')}>Contact</button></li>
     </ul>
   );

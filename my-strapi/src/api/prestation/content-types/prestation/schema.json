@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prestations",
+  "info": {
+    "singularName": "prestation",
+    "pluralName": "prestations",
+    "displayName": "prestation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "text"
+    },
+    "contenu": {
+      "type": "richtext"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
