@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image';
-import photo_caty from "@/public/portrait_catygarozzo.jpg";
+import photo_caty from "../public/portrait_catygarozzo.jpg";
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from "remark-gfm";
