@@ -8,7 +8,7 @@ import PageBuilder from './PageBuilder';
 
 export function PresentationAccueil() {
 
-    const filePath = path.join(process.cwd(), 'content', 'presentation.json');
+    const filePath = path.join(process.cwd(), 'content', 'Presentation.json');
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const blocks = JSON.parse(fileContent);
 
