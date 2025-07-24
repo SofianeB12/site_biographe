@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import '@/src/styles/globals.css';
 
 type Format = {
   bold?: boolean;
@@ -42,7 +43,7 @@ export default function PageBuilder({ blocks }: { blocks: Block[] }) {
         if (block.type === 'paragraph') {
           if (block.level === 1) {
             return (
-              <h1 key={index} className={`text-3xl border-2 border-black rounded py-4 ${baseClass}`}>
+              <h1 key={index} className={`text-3xl py-4 title-section ${baseClass}`}>
                 {block.content}
               </h1>
             );

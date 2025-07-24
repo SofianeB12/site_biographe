@@ -1,0 +1,32 @@
+[
+  {
+    "type": "paragraph",
+    "content": "Tarifs",
+    "format": {
+      "align": "center",
+      "bold": true
+    },
+    "level":1
+  },
+  {
+    "type": "paragraph",
+    "content": "Chaque projet est unique et mérite d’être envisagé au cas par cas.",
+    "format": {
+      "align":"center"
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "Contactez-moi via le formulaire de contact ou par téléphone.",
+    "format": {
+      "align":"center"
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "Je répondrai ainsi au mieux à votre demande.",
+    "format": {
+      "align":"center"
+    }
+  }
+]

@@ -11,3 +11,7 @@
 .corps_text {
     @apply my-4 text-justify
 }
+
+.title-section{
+  @apply shadow-xl border-2 border-gray-500 rounded -skew-x-6 mb-12;
+}

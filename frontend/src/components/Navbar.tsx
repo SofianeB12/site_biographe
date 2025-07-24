@@ -63,6 +63,7 @@ function ListeLiens({ scrollToSection }: { scrollToSection: (id: string) => void
     
     <ul className="flex flex-col md:flex-row justify-center md:justify-evenly md:gap-6 text-center self-center">
       <li><button className="hover:text-secondary" onClick={() => scrollToSection('prestations')}>Prestations</button></li>
+      <li><button className="hover:text-secondary" onClick={() => scrollToSection('tarifs')}>Tarifs</button></li>
       <li><button className="hover:text-secondary" onClick={() => scrollToSection('contact')}>Contact</button></li>
     </ul>
   );
