@@ -1,0 +1,200 @@
+[
+  {
+    "type": "paragraph",
+    "content": "Prestations",
+    "format": {
+      "align": "center",
+      "bold": true
+    },
+    "level":1
+  },
+  {
+    "type": "paragraph",
+    "content": "Les récits de vie.s",
+    "format": {
+      "bold": true,
+      "align":"center"
+    },
+    "level":2
+  },
+  {
+    "type": "paragraph",
+    "content": "Vous racontez, je vous écoute et recueille vos mots. Un mot, puis deux, puis trois, s’échappant par à-coups, ou glissant librement. Vous croyez choisir vos mots, mais ce sont eux qui vous choisissent ! Ainsi démarre le processus de création, car vous créez, sans même vous en rendre compte !"
+  },
+  {
+    "type": "paragraph",
+    "content": "Oui, vous créez et bien plus encore ! Car en vous posant le temps de votre récit, vous retrouvez la route de l’artiste — conteur, ce visage intemporel du plus vieux métier du monde, qui relie, tisse des liens, nous confronte les uns aux autres, partage et transmet."
+  },
+  {
+    "type": "paragraph",
+    "content": "Racontez votre Histoire, c’est tout cela à la fois, et c’est aussi en cela que réside la force de l’accompagnement biographique, le temps de votre récit.",
+    "format": {
+      "align": "center"
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "Les récits de vie.s individuels",
+    "format": {
+      "bold": true,
+      "align":"center"
+    },
+    "level":2
+  },
+  {
+    "type": "paragraph",
+    "content": "Vous ressentez le besoin d’être accompagné pour soutenir et réaliser votre projet d’écriture.",
+    "format": {
+      "bold": true
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "On se rencontre. Vous me parlez de votre projet, je vous parle de ma façon de travailler. Chaque projet d’écriture est unique. Nous le définissons ensemble lors de notre premier rendez-vous gratuit. Tout est possible, vous racontez ce qui fait sens pour vous : un événement précis, une période particulière, votre biographie…"
+  },
+  {
+    "type": "paragraph",
+    "content": "À la suite de notre rendez-vous, je vous envoie par mail ou courrier un devis détaillé, reprenant les points abordés ensemble ainsi que les modalités de paiement. J’y joins les conditions générales de vente (CGV). Tout ce qui s’applique à notre future collaboration y est consigné."
+  },
+  {
+    "type": "paragraph",
+    "content": "Le coût de votre projet dépend de la prestation souhaitée, du nombre de séances effectuées et du format final de votre histoire, sous format Word ou imprimé."
+  },
+  {
+    "type": "paragraph",
+    "content": "Le devis vous convient ? Vous le signez, avec les CGV. Votre signature vaut acceptation et bon de commande."
+  },
+  {
+    "type": "paragraph",
+    "content": "Les séances se feront à domicile, ou en extérieur, selon votre convenance. Il s’agit d’un travail d’équipe ; vous racontez, je recueille vos propos, les retranscris le plus fidèlement possible."
+  },
+  {
+    "type": "paragraph",
+    "content": "Nous échangeons ainsi jusqu’à la production finale de votre histoire, livrée sous le format préalablement choisi. La durée de l’accompagnement est fonction de votre projet et de ce qui vous anime !"
+  },
+  {
+    "type": "paragraph",
+    "content": "Concernant l’impression de votre livre, je travaille en local, avec un artisan-relieur et un imprimeur. Différents modèles vous seront proposés ; je propose, vous disposez."
+  },
+  {
+    "type": "paragraph",
+    "content": "Les récits de vie.s collectifs",
+    "format": {
+      "bold": true,
+      "align":"center"
+    },
+    "level":2
+  },
+  {
+    "type": "paragraph",
+    "content": "Vous êtes une association, une structure de soins, un collectif, ou un groupe d’amis, désireux de partager l’expérience singulière d’un narratif commun.",
+    "format": {
+        "bold": true,
+        "align":"center"
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "Vous avez un projet de transmission sur la vie de vos Anciens, sur le vécu du collectif, sur la mise en lumière de portraits au cœur gros comme ça, sur l’expérience d’un voyage qui vous a transformés."
+  },
+  {
+    "type": "paragraph",
+    "content": "Vous nourrissez le projet de raconter ce que vous faites, de parler des gens formidables qui portent les autres, la vie, en silence, toujours et toujours."
+  },
+  {
+    "type": "paragraph",
+    "content": "Vous y pensez à votre projet, vous y tenez, mais il est encore là, en attente de mobilisation. Car vous n’avez pas le temps, voire peu de moyens."
+  },
+  {
+    "type": "paragraph",
+    "content": "Contactez-moi et recherchons ensemble les solutions à l’aboutissement de ces projets qui vous tiennent tant à cœur.",
+    "format": {
+        "bold": true,
+        "align":"center"
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "Les ateliers d’écriture",
+    "format": {
+      "bold": true,
+      "align":"center"
+    },
+    "tight":true,
+    "level":2
+  },
+  {
+    "type": "paragraph",
+    "content": "Enfants, adolescents, adultes",
+    "format": {
+      "italic": true,
+      "align":"center"
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "L’atelier d’écriture offre ce format unique d’expérimenter à la fois le vivre seul et à plusieurs ; à la fois le partage et le retrait, dans cet « espace bulle » que chacun se crée au sein même du groupe.",
+    "format": {
+        "bold":true,
+        "align":"center"
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "Ce que je propose ?",
+    "format": {
+        "bold":true
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "Des ateliers à vocation récréative, pour tout public, en privé ou en structures collectives,",
+    "tight": true
+  },
+  {
+    "type": "paragraph",
+    "content": "Des ateliers à vocation pédagogique pour accompagner un public en phase d’apprentissage,",
+    "tight": true
+  },
+  {
+    "type": "paragraph",
+    "content": "Des ateliers à vocation d’accompagnement pour soutenir un public en difficulté,"
+  },
+  {
+    "type": "paragraph",
+    "content": "Mais avant tout,"
+  },
+  {
+    "type": "paragraph",
+    "content": "Des ateliers permettant d’envisager notre rapport aux mots différemment,",
+    "tight": true
+  },
+  {
+    "type": "paragraph",
+    "content": "Des ateliers mettant au cœur de l’exercice les ressources infinies et inattendues de chacun."
+  },
+  {
+    "type": "paragraph",
+    "content": "Il s’agit à chaque fois d’un projet unique.",
+    "format":{
+        "align":"center",
+        "bold": true
+    }
+  },
+  {
+    "type": "paragraph",
+    "content": "Vous me parlez de vos besoins, nous échangeons ensemble,",
+    "format":{
+        "align":"center"
+    },
+    "tight": true
+  },
+  {
+    "type": "paragraph",
+    "content": "J’élabore un projet fidèle à vos attentes !",
+    "format":{
+        "align":"center"
+    }
+  }
+
+]
