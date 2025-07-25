@@ -6,7 +6,7 @@ export default function ContactSimple() {
 
   return (
     <section className="pt-16 px-8 max-w-md mx-auto">
-      <div className="py-4 title-section">
+      <div className="py-4 title-1">
       <h1 className="text-3xl font-semibold text-center">Contact</h1>
       <p className="text-center">Prêt à franchir le cap, contactez-moi !</p>
       </div>

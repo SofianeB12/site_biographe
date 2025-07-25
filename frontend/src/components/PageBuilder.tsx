@@ -43,14 +43,14 @@ export default function PageBuilder({ blocks }: { blocks: Block[] }) {
         if (block.type === 'paragraph') {
           if (block.level === 1) {
             return (
-              <h1 key={index} className={`text-3xl py-4 title-section ${baseClass}`}>
+              <h1 key={index} className={`text-3xl py-4 title-1 ${baseClass}`}>
                 {block.content}
               </h1>
             );
           }
           if (block.level === 2) {
             return (
-              <h2 key={index} className={`text-2xl py-6 ${baseClass}`}>
+              <h2 key={index} className={`text-2xl py-6 title-2 ${baseClass}`}>
                 {block.content}
               </h2>
             );

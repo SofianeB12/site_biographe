@@ -12,6 +12,10 @@
     @apply my-4 text-justify
 }
 
-.title-section{
+.title-1{
   @apply shadow-xl border-2 border-gray-500 rounded -skew-x-6 mb-12;
+}
+
+.title-2{
+  @apply  underline;
 }
