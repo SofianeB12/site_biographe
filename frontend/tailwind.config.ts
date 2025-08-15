@@ -24,6 +24,9 @@ module.exports = {
   content: ["./src/app/**/*.{js,ts,jsx,tsx}", "./src/components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        quicksand: ['var(--font-quicksand)'],
+      },
       colors: {
         primary: "#c7d2fe",
         secondary: "#D0021B",

@@ -3,19 +3,18 @@
 @tailwind utilities;
 
 
-
 .title {
    @apply text-2xl text-center font-medium
 } 
 
-.corps_text {
+.corps-text {
     @apply my-4 text-justify
 }
 
 .title-1{
-  @apply shadow-xl border-2 border-gray-500 rounded -skew-x-6 mb-12;
+  @apply shadow-xl border-2 border-gray-500 rounded -skew-x-6 mb-12 ;
 }
 
 .title-2{
-  @apply  underline;
+  @apply  underline ;
 }

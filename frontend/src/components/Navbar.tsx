@@ -45,7 +45,7 @@ export default function Navbar() {
               </div>
               <div>
                 <Link href="https://www.linkedin.com/in/caty-garozzo/" target="_blank" rel="noopener noreferrer">
-                  <Image src="/logo-linkedin.svg" alt="LinkedIn" width={40} height={40} />
+                  <Image src="/logo-linkedin.svg" alt="LinkedIn" width={30} height={30} />
                 </Link>
               </div>
             </div>

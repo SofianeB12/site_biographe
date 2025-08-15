@@ -34,7 +34,7 @@ function getFormatClasses(format?: Format): string {
 
 export default function PageBuilder({ blocks }: { blocks: Block[] }) {
   return (
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {blocks.map((block, index) => {
         const baseClass = `leading-relaxed ${getFormatClasses(block.format)} ${
           block.type === 'paragraph' && !block.tight ? 'mb-4' : 'mb-0'
@@ -43,7 +43,7 @@ export default function PageBuilder({ blocks }: { blocks: Block[] }) {
         if (block.type === 'paragraph') {
           if (block.level === 1) {
             return (
-              <h1 key={index} className={`text-3xl py-4 title-1 ${baseClass}`}>
+              <h1 key={index} className={`text-3xl py-4 title-1  ${baseClass}`}>
                 {block.content}
               </h1>
             );
